@@ -105,7 +105,6 @@ def display_survivors_per_age_group():
         f"children: {child_survivors}/{children}, adults: {adult_survivors}/{adults}, "
         f"elderly: {elderly_survivors}/{elderly}")
 
-
 def run():
     load_data("titanic.csv")
     num_records = len(records)
