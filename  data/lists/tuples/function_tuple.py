@@ -6,7 +6,7 @@ def likelihood():
 def run():
     probabilities = likelihood()
     print(f"Minimum likelihood of falling: {probabilities[0]}%")
-    print(f"Maximum likelihood of falling: {probabilities[0]}%")
+    print(f"Maximum likelihood of falling: {probabilities[1]}%")
 
 
 if __name__ == "__main__":
